@@ -26,8 +26,7 @@
 
 .textSaibaMaisBanner{
     font-family:'Lalezar', cursive; 
-    font-size: 27px; 
-       
+    font-size: 27px;  
 }
 
 .btnSaibaMais{
@@ -58,8 +57,7 @@
     flex: 1; 
     display: inline-flex; 
     align-items: center; 
-    margin-left: 60px;
-    
+    margin-left: 60px; 
 }
 
 #divVantagemCxB, #divVantagemSpeed{
@@ -87,7 +85,6 @@
 .divTitleVantagem{
     align-self: flex-end;
 }
-
 
 .textTitleVantagem{
     color: #074680;
