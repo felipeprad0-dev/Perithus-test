@@ -20,13 +20,13 @@
     flex-direction: column; 
     justify-content: space-around; 
     margin-left: 100px;  
-    padding-top: 50px; 
+    padding-top: 100px; 
     padding-bottom: 20px;
 }
 
 .containerSecund{
     margin-right: 100px;
-    margin-top: 350px;
+    margin-top: 400px;
 }
 
 .segundoConteudoFooter{

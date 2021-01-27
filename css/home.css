@@ -8,7 +8,15 @@
 .titleBanner{
     font-family: 'Lalezar', cursive; 
     font-size: 70px; 
-    margin-bottom: 0rem;
+    margin-bottom: 10px;
+    height: 80px;
+}
+
+.titleBanner:first-child{
+    font-family: 'Lalezar', cursive; 
+    font-size: 70px; 
+    margin-bottom: 0px;
+    height: 80px;
 }
 
 .subTitleBanner{
@@ -57,7 +65,13 @@
     flex: 1; 
     display: inline-flex; 
     align-items: center; 
-    margin-left: 60px; 
+    margin: 0 150px 0 150px; 
+}
+
+.subTitle{
+    font-family:'Niramit', sans-serif; 
+    color: grey;
+    font-weight: bold;
 }
 
 #divVantagemCxB, #divVantagemSpeed{
@@ -239,6 +253,7 @@
     align-self: flex-end;
     margin-left: -200px;
     margin-top: 150px;
+    padding-bottom: 8px;
     border-radius: 15px;
 }
 
@@ -255,6 +270,11 @@
 
 .suaIdeia2{
     display: none;
+}
+
+.title{
+    height: 70px;
+    margin-bottom: 16px;
 }
 
 .divParceiros1{
@@ -283,14 +303,14 @@
     align-items: center; 
     justify-content: center;
     margin-top: 50px; 
-    margin-left: 50px;
+    margin-left: 120px;
     margin-right: 50px;
 }
 
 .divDepoimento{
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
+    margin-right: 80px;
     height: 800px;
     width: 18%;
     background-color: #F4EFEF;
@@ -346,19 +366,6 @@
 
 .divDepoimentosGroup2{
     display: none; 
-}
-
-.carousel-control-next {
-    right: 0;
-    bottom: auto;
-    top: 100px;
-}
-
-
-.carousel-control-prev {
-    right: 0;
-    bottom: auto;
-    top: 100px;
 }
 
 

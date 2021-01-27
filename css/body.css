@@ -1,3 +1,8 @@
+body {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important
+}
+
 .primeiroTitulo{
     margin-top: 50px;
 }

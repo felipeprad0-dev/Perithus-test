@@ -1,3 +1,7 @@
+#conteudoNavbarSuportado{
+    margin-bottom: 20px;
+}
+
 .divTextBanner{
     margin-right: 50px; 
     margin-left: 100px; 
@@ -24,17 +28,29 @@
 .divInputBusca{
     width: 313px;
     float: right;
-    margin-right: 50px;
-    margin-top: -30px;
+    margin-right: 25px;
+    margin-top: -65px;
 }
 
 .inputBusca{
     border: none;
+    border-radius: 0.8em;
+    align-items: center;
 }
 
-.iconInputBusca{
-    background-color: white;
+.button{
+    background: white url(../assets/search.svg) no-repeat center;
+    width: 40px;
     border: none;
+    border-radius: 0 0.8em 0.8em 0;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button:focus{
+    outline: none;
 }
 
 @media only screen and (max-width: 988px){
